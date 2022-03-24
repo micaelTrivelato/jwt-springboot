@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "tb_user")
-public class User {//1 usuario pode ter varias permissoes e ao mesmo tempo 1 permissao pode está relacionada a varios usuarios
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
